@@ -1,0 +1,56 @@
+python .\testing.py
+git init
+ls -la
+ls
+ls -l
+& C:/Users/HP/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/HP/Documents/git-for-devops/testing.py
+clear
+ls -la
+clear
+git status
+git init
+git status
+git add .\testing.py
+git status
+git rm --cache .\testing.py
+git status
+git add .\testing.py
+git status
+ls
+git commit -m "Testing python file added"
+git status
+rm .\testing.py
+ls
+git restore testing.py
+ls
+git status
+git rm --cache .\testing.py
+git status
+git commit -m "testing file added again"
+git status
+git add .\testing.py
+git status
+git commit -m "testing file added again"
+git status
+clear
+git remote add origin https://github.com/singhvivek012/github-for-devops.git
+git remote -v
+  47 git remote -v
+  48 git remote set-url origin https://github.com/singhvivek012/github-for-devops.git
+  49 git remote -v
+  50 git push origin master
+  51 history
+  52 git clone https://github.com/singhvivek012/github-for-devops-workshop.git
+  53 clear
+  54 ls
+  55 cd .\github-for-devops-workshop\
+  56 ls
+  57 clear
+  58 clear
+  59 cd ~
+  60 cd .\Documents\
+  61 ls
+  62 cd .\git-for-devops\
+  63 ls
+  64 clear
+  65 git remote -v
